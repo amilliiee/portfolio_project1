@@ -1,0 +1,25 @@
+1 answer shown on page 
+
+examples
+https://simplestepscode.com/javascript-quiz-tutorial/
+https://www.geeksforgeeks.org/how-to-create-a-simple-javascript-quiz/#
+
+List of names:
+Brain Buster School Quiz: Classic and straightforward, emphasizes the challenge.
+Ace the A's: School Quiz Adventure: Fun and engaging, evokes a sense of progression and reward.
+Test Time Turbo: Upbeat and playful, highlights the speed and efficiency of the quiz.
+Classroom Challenge: Simple and direct, conveys the purpose of the app clearly.
+Trivia Titan School Edition: Appeals to trivia fans and emphasizes expertise.
+Knowledge Knockout: Dynamic and exciting, suggests a competitive edge.
+Brainwave Blitz: School Edition: Catchy and unique, evokes mental agility and quick thinking.
+Ace Up Your Sleeve: Clever and playful, positions the app as a secret weapon for success.
+Schoolhouse Showdown: Competitive and engaging, hints at a battle of wits.
+Quiz Quest: Conquer School Subjects: Adventurous and immersive, paints the learning experience as a journey.
+
+Bonus ideas:
+• Smarty Pants Quiz: Lighthearted and fun, targeting a younger audience.
+• Grade A Gamer: Combines gaming elements with academic focus.
+
+Letters Numbers and 
+
+Work on the layout with HTML and CSS
