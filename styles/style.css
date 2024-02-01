@@ -1,9 +1,21 @@
 #Instructions {
-    margin: auto;
+    margin: 80px;
     text-align: center;
+    font-family: "Honk", sans-serif;
+    
 }
 
 #Game-Area {
-    margin: auto;
+    margin: 80px;
     text-align: center;
+    font-family: "Honk", sans-serif;
+}
+
+body {
+    font-family: "Honk", sans-serif;
+}
+
+footer {
+        font-family: "Honk", sans-serif;
+        text-align: center;
 }
