@@ -1,21 +1,43 @@
 #Instructions {
-    margin: 80px;
+    /*margin: 80px;
     text-align: center;
+    */
     font-family: "Honk", sans-serif;
     
 }
 
 #Game-Area {
-    margin: 80px;
+    /*margin: 80px;
     text-align: center;
+    */
     font-family: "Honk", sans-serif;
+    font-size: 40px;
 }
 
-body {
-    font-family: "Honk", sans-serif;
+.Heading-1 {
+    font-size: 60px;
+}
+
+.Heading-2 {
+    font-size: 45px;
+}
+
+.Instructions-Text{
+    font-size: 30px;
 }
 
 footer {
-        font-family: "Honk", sans-serif;
-        text-align: center;
+    font-family: "Honk", sans-serif;
+    font-size: 30px;
+    /* text-align: center;*/
+}
+
+#Custom-Button {
+    font-family: "Honk", sans-serif;
+    font-size: 20px;
+}
+
+.navbar {
+    font-family: "Honk", sans-serif;
+    font-size: 30px;
 }

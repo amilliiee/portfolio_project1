@@ -24,25 +24,138 @@
 		<title>Portfolio Quiz Game</title>
 	</head>
 	<body>
+		
+		<!--Navbar-->
+		<nav class="navbar navbar-expand-lg  bg-info">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="#">The Amazing Quiz</a>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+				
+						<li class="nav-item">
+							<a class="nav-link active" aria-current="page" href="/portfolio-quiz-index.html">Main Page</a>
+						</li>
+				
+						<li class="nav-item">
+							<a class="nav-link" href="#">Simple Math Quiz</a>
+						</li>
+				
+					</ul>
+				</div>
+			</div>
+		</nav>
+		
 		<!--Instructions Area-->
-		<div id="Instructions">
-			<h1>Welcome to the Game!</h1>
-			<h2>Instructions</h2>
-			<p>Instructions Go Here</p>
+		<div class="container-fluid text-center">
+			<div class="row align-items-start m-5">
+				<div id="Instructions" class="col">
+					<h1 class="Heading-1">Welcome to the Game!</h1>
+					<h2 class="Heading-2">Instructions</h2>
+					<p class="Instructions-Text">Instructions Go Here</p>
+				</div>
+			</div>
 		</div>
 
 		<!--Game Area-->
-		<div id="Game-Area">
-			<h1>Question #<!--Question Number Variable--></h1>
-			<p>
-				"Question Text Goes Here"
-				<!--Probably call in a variable here that has the question as a string-->
-			</p>
-
-			<!--Submit Button-->
-			<button onclick="checkAns()" id="btn">Submit Your Answer</button>
+		<div class="container text-center">
+			<div class="row align-items-center m-5">
+				<div id="Game-Area" class="col">
+					<h1 class="Heading-1">Question #<!--Question Number Variable--></h1>
+					<p>
+						"Question Text Goes Here"
+						<!--Probably call in a variable here that has the question as a string-->
+					</p>
+				</div>
+					<div class="row align-items-center">
+						<div class="col">
+						<!--Submit Button-->
+						<button onclick="checkAns()" id="Custom-Button" class="btn btn-outline-primary btn-info" >Submit Your Answer</button>
+					</div>
+				</div>
+			</div>
 		</div>
 
+		<!--
+			Footer
+			<footer class="fixed-bottom bg-body-tertiary text-center">
+				<div class="container m-5">
+					<div class="row align-items-center">
+						<div class="col-6">
+							<a href="/portfolio-quiz-index.html">Main Page</a>
+							<a href="#">Simple Quiz</a>
+						</div>
+					</div>
+				</div>
+			</footer>
+		-->
+
+		<!--Example Footer-->
+		<footer class="bg-info text-center text-lg-start fixed-bottom">
+			<!-- Grid container -->
+			<div class="container p-4">
+			  <!--Grid row-->
+			  <div class="row">
+				<!--Grid column-->
+				<div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+				  <h5 class="text-uppercase">Links</h5>
+		  
+				  <ul class="list-unstyled mb-0">
+					<li>
+					  <a href="#!" class="text-dark">Link 1</a>
+					</li>
+				  </ul>
+				</div>
+				<!--Grid column-->
+		  
+				<!--Grid column-->
+				<div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+				  <h5 class="text-uppercase mb-0">Links</h5>
+		  
+				  <ul class="list-unstyled">
+					<li>
+					  <a href="#!" class="text-dark">Link 1</a>
+					</li>
+				  </ul>
+				</div>
+				<!--Grid column-->
+		  
+				<!--Grid column-->
+				<div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+				  <h5 class="text-uppercase">Links</h5>
+		  
+				  <ul class="list-unstyled mb-0">
+					<li>
+					  <a href="#!" class="text-dark">Link 1</a>
+					</li>
+				  </ul>
+				</div>
+				<!--Grid column-->
+		  
+				<!--Grid column-->
+				<div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+				  <h5 class="text-uppercase mb-0">Links</h5>
+		  
+				  <ul class="list-unstyled">
+					<li>
+					  <a href="#!" class="text-dark">Link 1</a>
+					</li>
+				  </ul>
+				</div>
+				<!--Grid column-->
+			  </div>
+			  <!--Grid row-->
+			</div>
+		  
+			<!-- Copyright -->
+			<div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+			  © 2020 Copyright:
+			  <a class="text-dark" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+			</div>
+		  </footer>
+		
 		<!--JavaScript Custom Script-->
 		<script src="/js/script.js"></script>
 
@@ -58,9 +171,4 @@
 			crossorigin="anonymous"
 		></script>
 	</body>
-	<!--Footer-->
-	<footer>
-		<a href="/portfolio-quiz-index.html">Main Page</a>
-		<a href="#">Simple Quiz</a>
-	</footer>
 </html>
