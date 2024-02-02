@@ -1,0 +1,52 @@
+{
+  "question1": {
+    "question": "What is the sum of 5 + 5",
+    "options": [190, 11, 10, "None of the above"],
+    "correctAnswer": 10
+  },
+  "question2": {
+    "question": "How many days are there in a week?",
+    "options": [9, 7, "Tuesday", "Trick question"],
+    "correctAnswer": 7
+  },
+  "question3": {
+    "question": "What shape has 4 sides and 4 corners?",
+    "options": ["Triangle", "Circle", "Square", "Pentagon"],
+    "correctAnswer": "Square"
+  },
+  "question4": {
+    "question": "What number comes after 10?",
+  "options": [8, 11, 5, 9],
+  "correctAnswer": 11
+  },
+  "question5": {
+    "question": "What color is the sun?",
+    "options": ["Blue", "Green", "Red", "Yellow"],
+    "correctAnswer": "Yellow"
+  },
+  "question6": {
+    "question": "What do you eat with a fork?",
+    "options": ["Ice Cream", "Soup", "Spaghetti", "Sandwich"],
+    "correctAnswer": "Spaghetti"
+  },
+  "question7": {
+    "question": "What animal says meow?",
+    "options": ["Dog", "Cow", "Bird", "Cat"],
+    "correctAnswer": "Cat"
+  },
+  "question8": {
+    "question": "What day comes after Monday?",
+    "options": ["Saturday", "Tuesday", "Thursday", "Sunday"],
+    "correctAnswer": "Tuesday"
+  },
+  "question9": {
+    "question": "What do you wear on your feet?",
+    "options": ["Hat", "Shirt", "Gloves", "Shoes"],
+    "correctAnswer": "Shoes"
+  },
+  "question10": {
+    "question": "What color is the sky on a clear day?",
+    "options": ["Green", "Yellow", "Purple", "Blue"],
+    "correctAnswer": "Blue"
+  }
+}
