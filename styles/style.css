@@ -6,16 +6,17 @@
     
 }
 
-
+/*
 #Game-Area {
     /*margin: 80px;
     text-align: center;
-    */
-    /* font-size: 40px; */
+    
+     font-size: 40px; 
 }
+*/
 
 .Heading-1 {
-    font-size: 60px;
+    font-size: 5em;
     font-family: "Honk", sans-serif;
 }
 
