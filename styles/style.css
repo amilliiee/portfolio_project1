@@ -25,22 +25,26 @@
 }
 
 .Instructions-Text{
-    font-size: 30px;
-    font-family: "Honk", sans-serif;
+    font-size: 20px;
+    font-family: "Press Start", sans-serif;
 }
 
 footer {
-    font-family: "Honk", sans-serif;
-    font-size: 30px;
+    font-family: "Press Start", sans-serif;
+    font-size: 15px;
     /* text-align: center;*/
 }
 
 #Custom-Button {
     font-family: "Honk", sans-serif;
-    font-size: 20px;
+    font-size: 25px;
 }
 
 .navbar {
     font-family: "Honk", sans-serif;
+    font-size: 25px;
+}
+
+.navbar .navbar-brand {
     font-size: 30px;
 }
