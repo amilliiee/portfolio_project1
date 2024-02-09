@@ -1,3 +1,4 @@
 function checkAns() {
-    console.log("This Button Is Working")
+    console.log("This Button Is Working");
+    //scoreAmount++;
 }

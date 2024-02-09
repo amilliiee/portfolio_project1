@@ -63,14 +63,18 @@
 		<div class="container text-center" style="min-height: 60vh;">
 			<div class="row align-items-center m-5">
 				<div id="Game-Area" class="col">
-					<h1 class="Heading-1">Question #<!--Question Number Variable--></h1>
-					<p class="Instructions-Text">
+					<h1 id="numberOfQuestions" class="Heading-1">Question #<!--Question Number Variable--></h1>
+					<p id="questionPromt" class="Instructions-Text">
 						"Question Test Words"
 						<!--Probably call in a variable here that has the question as a string-->
 					</p>
+					<input type="text" id="textInput">
+					<!--Score Counter-->
+					<p id="Counter" class="Instructions-Text"></p>
 				</div>
 					<div class="row align-items-center">
 						<div class="col">
+						  
 						<!--Submit Button-->
 						<button onclick="checkAns()" id="Custom-Button" class="btn btn-outline-primary btn-info" >Submit Your Answer</button>
 					</div>
@@ -150,7 +154,7 @@
 		</footer>
 		
 		<!--JavaScript Custom Script-->
-		<script src="/js/script.js"></script>
+		<!--<script src="/js/script.js"></script>-->
 		<script src="/js/math.js"></script>
 
 		<!--Bootstrap Scripts-->
