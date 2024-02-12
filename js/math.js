@@ -5,6 +5,7 @@ let scoreDiv = document.getElementById("Counter"); //gave this a variable -Melan
 let questionDiv = document.getElementById("numberOfQuestions"); //gave this a variable as well -Melanie
 let correctAnswer;
 let questionNumber = 1;
+let winPage = "/portfolio-win-page.html"
 
 function game() {
   if(scoreAmount === 0) { //for intial update of numbers -Melanie
@@ -59,6 +60,10 @@ function checkAns() {
   questionDiv.innerHTML = `Question Number # ${questionNumber}`;
   //clear the text box - Melanie
   document.getElementById("textInput").value = '';
+
+  if (questionNumber > 10) {
+    window.location.href = winPage
+  }
 }
 
  // Function to perform arithmetic operations

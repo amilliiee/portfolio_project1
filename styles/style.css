@@ -45,3 +45,8 @@ footer {
     font-family: "Honk", sans-serif;
     font-size: 30px;
 }
+
+img {
+    width: 400px;
+    height: auto;
+}
