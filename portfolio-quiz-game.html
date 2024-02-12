@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 	<head>
@@ -5,7 +6,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
 		<!--Custom Style Sheet-->
-		<link rel="stylesheet" href="/styles/style.css" />
+		<link rel="stylesheet" href="styles/style.css" />
 
 		<!--Bootstrap Style Sheet-->
 		<link
@@ -23,8 +24,8 @@
 
 		<title>Portfolio Quiz Game</title>
 	</head>
-	<body>
-		
+	<body onload="game()">
+
 		<!--Navbar-->
 		<nav class="navbar navbar-expand-lg  bg-info">
 			<div class="container-fluid">
@@ -34,20 +35,20 @@
 				</button>
 				<div class="collapse navbar-collapse" id="navbarSupportedContent">
 					<ul class="navbar-nav me-auto mb-2 mb-lg-0">
-				
+
 						<li class="nav-item">
 							<a class="nav-link" href="/portfolio-quiz-index.html">Main Page</a>
 						</li>
-				
+
 						<li class="nav-item">
 							<a class="nav-link active" aria-current="page" href="#">Simple Math Quiz</a>
 						</li>
-				
+
 					</ul>
 				</div>
 			</div>
 		</nav>
-		
+
 		<!--Instructions Area-->
 		<div class="container-fluid text-center">
 			<div class="row align-items-start m-5">
@@ -74,9 +75,10 @@
 				</div>
 					<div class="row align-items-center">
 						<div class="col">
-						  
+
 						<!--Submit Button-->
 						<button onclick="checkAns()" id="Custom-Button" class="btn btn-outline-primary btn-info" >Submit Your Answer</button>
+						<button onclick="game()" id="Custom-Button" class="btn btn-outline-primary btn-info" >Next Question</button>
 					</div>
 				</div>
 			</div>
@@ -105,7 +107,7 @@
 					<!--Grid column 1-->
 					<div class="col-lg-3 col-md-6 mb-4 mb-md-0">
 						<h5 class="text-uppercase">Links</h5>
-		
+
 						<ul class="list-unstyled mb-0">
 							<li>
 								<a href="#!" class="text-dark">Link 1</a>
@@ -115,7 +117,7 @@
 					<!--Grid column 2-->
 					<div class="col-lg-3 col-md-6 mb-4 mb-md-0">
 						<h5 class="text-uppercase mb-0">Links</h5>
-		
+
 						<ul class="list-unstyled">
 							<li>
 								<a href="#!" class="text-dark">Link 1</a>
@@ -125,7 +127,7 @@
 					<!--Grid column 3-->
 					<div class="col-lg-3 col-md-6 mb-4 mb-md-0">
 						<h5 class="text-uppercase">Links</h5>
-		
+
 						<ul class="list-unstyled mb-0">
 							<li>
 								<a href="#!" class="text-dark">Link 1</a>
@@ -135,7 +137,7 @@
 					<!--Grid column 4-->
 					<div class="col-lg-3 col-md-6 mb-4 mb-md-0">
 						<h5 class="text-uppercase mb-0">Links</h5>
-		
+
 						<ul class="list-unstyled">
 							<li>
 								<a href="#!" class="text-dark">Link 1</a>
@@ -145,17 +147,17 @@
 				</div>
 				<!--Grid row-->
 			</div>
-		
+
 			<!-- Copyright -->
 			<div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
 				© 2020 Copyright:
 				<a class="text-dark" href="https://mdbootstrap.com/">MDBootstrap.com</a>
 			</div>
 		</footer>
-		
+
 		<!--JavaScript Custom Script-->
 		<!--<script src="/js/script.js"></script>-->
-		<script src="/js/math.js"></script>
+		<script src="js/math.js"></script>
 
 		<!--Bootstrap Scripts-->
 		<script
