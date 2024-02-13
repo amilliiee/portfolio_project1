@@ -1,0 +1,2 @@
+Have the footer scale with the the browser window, it currently does not
+Font is hard to see on smaller screens, either change the font or have it scale based on screen size

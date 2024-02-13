@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 	<head>
@@ -5,7 +6,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
 		<!--Custom Style Sheet-->
-		<link rel="stylesheet" href="/styles/style.css" />
+		<link rel="stylesheet" href="styles/style.css" />
 
 		<!--Bootstrap Style Sheet-->
 		<link
@@ -23,36 +24,36 @@
 
 		<title>Portfolio Quiz Game</title>
 	</head>
-	<body>
-		
+	<body onload="game()">
+
 		<!--Navbar-->
 		<nav class="navbar navbar-expand-lg  bg-info">
 			<div class="container-fluid">
-				<a class="navbar-brand" href="#">The Amazing Quiz</a>
+				<a class="navbar-brand" href="/portfolio-quiz-index.html">The Amazing Quiz</a>
 				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
 				</button>
 				<div class="collapse navbar-collapse" id="navbarSupportedContent">
 					<ul class="navbar-nav me-auto mb-2 mb-lg-0">
-				
+
 						<li class="nav-item">
 							<a class="nav-link" href="/portfolio-quiz-index.html">Main Page</a>
 						</li>
-				
+
 						<li class="nav-item">
 							<a class="nav-link active" aria-current="page" href="#">Simple Math Quiz</a>
 						</li>
-				
+
 					</ul>
 				</div>
 			</div>
 		</nav>
-		
+
 		<!--Instructions Area-->
 		<div class="container-fluid text-center">
 			<div class="row align-items-start m-5">
 				<div id="Instructions" class="col">
-					<h1 class="Heading-1">Welcome to the Game!</h1>
+					<h1 class="Heading-1 text-xl">Welcome to the Game!</h1>
 					<h2 class="Heading-2">Instructions</h2>
 					<p class="Instructions-Text">Instructions Go Here</p>
 				</div>
@@ -60,19 +61,24 @@
 		</div>
 
 		<!--Game Area-->
-		<div class="container text-center">
+		<div class="container text-center" style="min-height: 60vh;">
 			<div class="row align-items-center m-5">
 				<div id="Game-Area" class="col">
-					<h1 class="Heading-1">Question #<!--Question Number Variable--></h1>
-					<p class="Instructions-Text">
-						"Question Text Goes Here"
+					<h1 id="numberOfQuestions" class="Heading-1">Question #<!--Question Number Variable--></h1>
+					<p id="questionPromt" class="Instructions-Text">
+						<!--"Question Test Words"-->
 						<!--Probably call in a variable here that has the question as a string-->
 					</p>
+					<input type="text" id="textInput">
+					<!--Score Counter-->
+					<p id="Counter" class="Instructions-Text"></p>
 				</div>
 					<div class="row align-items-center">
 						<div class="col">
+
 						<!--Submit Button-->
 						<button onclick="checkAns()" id="Custom-Button" class="btn btn-outline-primary btn-info" >Submit Your Answer</button>
+						<button onclick="game()" id="Custom-Button" class="btn btn-outline-primary btn-info" >Next Question</button>
 					</div>
 				</div>
 			</div>
@@ -93,71 +99,65 @@
 		-->
 
 		<!--Example Footer-->
-		<footer class="bg-info text-center text-lg-start fixed-bottom">
+		<footer class="bg-info text-center text-lg-start">
 			<!-- Grid container -->
 			<div class="container p-4">
-			  <!--Grid row-->
-			  <div class="row">
-				<!--Grid column-->
-				<div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-				  <h5 class="text-uppercase">Links</h5>
-		  
-				  <ul class="list-unstyled mb-0">
-					<li>
-					  <a href="#!" class="text-dark">Link 1</a>
-					</li>
-				  </ul>
+				<!--Grid row-->
+				<div class="row">
+					<!--Grid column 1-->
+					<div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+						<h5 class="text-uppercase">Links</h5>
+
+						<ul class="list-unstyled mb-0">
+							<li>
+								<a href="#!" class="text-dark">Link 1</a>
+							</li>
+						</ul>
+					</div>
+					<!--Grid column 2-->
+					<div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+						<h5 class="text-uppercase mb-0">Links</h5>
+
+						<ul class="list-unstyled">
+							<li>
+								<a href="#!" class="text-dark">Link 2</a>
+							</li>
+						</ul>
+					</div>
+					<!--Grid column 3-->
+					<div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+						<h5 class="text-uppercase">Links</h5>
+
+						<ul class="list-unstyled mb-0">
+							<li>
+								<a href="#!" class="text-dark">Link 3</a>
+							</li>
+						</ul>
+					</div>
+					<!--Grid column 4-->
+					<div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+						<h5 class="text-uppercase mb-0">Links</h5>
+
+						<ul class="list-unstyled">
+							<li>
+								<a href="#!" class="text-dark">Link 4</a>
+							</li>
+						</ul>
+					</div>
 				</div>
-				<!--Grid column-->
-		  
-				<!--Grid column-->
-				<div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-				  <h5 class="text-uppercase mb-0">Links</h5>
-		  
-				  <ul class="list-unstyled">
-					<li>
-					  <a href="#!" class="text-dark">Link 1</a>
-					</li>
-				  </ul>
-				</div>
-				<!--Grid column-->
-		  
-				<!--Grid column-->
-				<div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-				  <h5 class="text-uppercase">Links</h5>
-		  
-				  <ul class="list-unstyled mb-0">
-					<li>
-					  <a href="#!" class="text-dark">Link 1</a>
-					</li>
-				  </ul>
-				</div>
-				<!--Grid column-->
-		  
-				<!--Grid column-->
-				<div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-				  <h5 class="text-uppercase mb-0">Links</h5>
-		  
-				  <ul class="list-unstyled">
-					<li>
-					  <a href="#!" class="text-dark">Link 1</a>
-					</li>
-				  </ul>
-				</div>
-				<!--Grid column-->
-			  </div>
-			  <!--Grid row-->
+				<!--Grid row-->
 			</div>
-		  
+
 			<!-- Copyright -->
 			<div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-			  © 2020 Copyright:
-			  <a class="text-dark" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+				© 2020 Copyright:
+				<a class="text-dark" href="https://mdbootstrap.com/">MDBootstrap.com</a>
 			</div>
-		  </footer>
-		
+		</footer>
+
 		<!--JavaScript Custom Script-->
-		<script src="/js/script.js"></script>
+		<!--<script src="/js/script.js"></script>-->
+		<script src="js/math.js"></script>
 
 		<!--Bootstrap Scripts-->
 		<script

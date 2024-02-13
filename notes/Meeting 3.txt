@@ -1,0 +1,3 @@
+Loop needs to happen 
+Score and question variable arent going up
+Question Doesnt Refresh

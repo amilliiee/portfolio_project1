@@ -6,15 +6,17 @@
     
 }
 
+/*
 #Game-Area {
     /*margin: 80px;
     text-align: center;
-    */
-    /* font-size: 40px; */
+    
+     font-size: 40px; 
 }
+*/
 
 .Heading-1 {
-    font-size: 60px;
+    font-size: 5em;
     font-family: "Honk", sans-serif;
 }
 
@@ -24,14 +26,19 @@
 }
 
 .Instructions-Text{
-    font-size: 30px;
-    font-family: "Honk", sans-serif;
+    font-size: 20px;
+    font-family: "Open Sans", sans-serif; /* swapped to open sans for readibility, originally Honk */
 }
 
-footer {
+footer h5 {
     font-family: "Honk", sans-serif;
     font-size: 30px;
     /* text-align: center;*/
+}
+
+footer a {
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
 }
 
 #Custom-Button {
@@ -42,4 +49,9 @@ footer {
 .navbar {
     font-family: "Honk", sans-serif;
     font-size: 30px;
+}
+
+img {
+    width: 400px;
+    height: auto;
 }

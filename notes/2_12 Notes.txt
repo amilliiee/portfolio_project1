@@ -1,0 +1,6 @@
+2_12 Notes
+
+The player can choose an operation, but pressing cancel will make it invalid operation, causing the correctAnswer variable to be set to this.
+Need to change instructions text to list what will happen.
+Need to have the the game go to either the win or lose page depending on the score amount
+Pressing next question on question 10 breifly shows question 11.  Should probably change that.
