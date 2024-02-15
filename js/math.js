@@ -6,6 +6,7 @@ let questionDiv = document.getElementById("numberOfQuestions"); //gave this a va
 let correctAnswer;
 let questionNumber = 1;
 let winPage = "/portfolio-win-page.html";
+let losePage = "/portfolio-lose-page.html";
 let operation = "";
 
 function game() {
@@ -23,6 +24,7 @@ function game() {
 		"Choose an operation: add, subtract, multiply, or divide"
 	);
 
+	// Changing chosen operation into symbol for readability - Amelia
 	let op = '';
 	switch(operation) {
 		case "add":
@@ -79,8 +81,10 @@ function checkAns() {
 	//clear the text box - Melanie
 	document.getElementById("textInput").value = "";
 
-	if (questionNumber > 10) {
+	if (questionNumber > 10 && scoreAmount >= 6) {
 		window.location.href = winPage;
+	} else {
+		window.location.href = losePage;
 	}
 }
 
