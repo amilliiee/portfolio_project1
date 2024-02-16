@@ -83,7 +83,7 @@ function checkAns() {
 
 	if (questionNumber > 10 && scoreAmount >= 6) {
 		window.location.href = winPage;
-	} else {
+	} else if (questionNumber > 10 && scoreAmount < 6) {
 		window.location.href = losePage;
 	}
 }
